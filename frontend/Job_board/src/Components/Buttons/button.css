@@ -1,0 +1,10 @@
+.button_square{
+    /* position: absolute; */
+    width: 5vw;
+    height:5vh;
+    padding: 15%;
+    border-radius:20%;
+    background: rgba(234, 234, 234, 1);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}

@@ -1,0 +1,27 @@
+
+.docContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4em;
+    padding: 1vw;
+    gap:1vh;
+    width: 50vw;
+    overflow: hidden;
+}
+
+
+.doc_field_label{
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    
+}
+
+.doc_field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}

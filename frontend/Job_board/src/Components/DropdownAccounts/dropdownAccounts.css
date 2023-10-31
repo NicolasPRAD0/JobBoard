@@ -1,0 +1,37 @@
+.selected{
+    width: 30vw;
+    height:3vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #30657f61;
+    border-radius: 0.4em;
+
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1vh;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4em;
+    padding: 1vw;
+    z-index: 10;
+    position: sticky;
+}
+.item{
+    cursor: pointer;
+    width: 80%;
+    border-radius: 0.4em;
+    padding: 1vw;
+    z-index: 10;
+
+
+}
+.item:hover{
+    background-color: #30657f61;
+    z-index: 10;
+}

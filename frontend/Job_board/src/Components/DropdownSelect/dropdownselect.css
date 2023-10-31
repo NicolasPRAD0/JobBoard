@@ -1,0 +1,23 @@
+
+.dropdownselect_container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dropdownselect_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    height:7vw;
+    padding: 10px;
+}
+
+.dropdownselect_item_logo{
+    width:50%;
+    height:50%;
+
+}

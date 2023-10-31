@@ -1,0 +1,7 @@
+
+Begin:
+Language code:1036
+System: 64
+Retry: 0
+Get Url: https://imobie-resource.com/product/droidkit64.7z
+Download url: https://imobie-resource.com/product/droidkit64.7z

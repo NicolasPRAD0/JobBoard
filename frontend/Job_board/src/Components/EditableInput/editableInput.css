@@ -1,0 +1,25 @@
+.editableInput_container{
+    display: flex;
+    flex-direction: row;
+    /* border: solid red 1px */
+}
+.editableInput_labelContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.editableInput_subContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.input_disabled{
+    width:max-content;
+    min-width: 15vw;
+}
+.input_enabled{
+    width:max-content;
+    /* border: solid 2px black; */
+    min-width: 15vw;
+}
