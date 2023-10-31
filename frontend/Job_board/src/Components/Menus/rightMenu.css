@@ -1,0 +1,31 @@
+.menu_container{
+    overflow: visible;
+    width: 5vw;
+    height:5vh;
+}
+.menu{
+    position: relative;
+    right: 13vw;
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4em;
+    padding: 1vw;
+    z-index:3;
+}
+
+
+.menu_item{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    border-radius: 0.4em;
+    padding: 0.5em;
+}
+
+.menu_item:hover{
+    background-color: #30657f61; 
+}

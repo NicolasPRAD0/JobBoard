@@ -1,0 +1,71 @@
+body {
+    background-color: #F5FAF9;  /* A light shade based on the green, for a subtle backdrop */
+    font-family: 'Arial', sans-serif;  /* Optional: Your preferred font family */
+    margin: 0;
+    padding: 0;
+}
+
+/* job-offer-card.css */
+
+.job-offer-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.job-offer-card {
+    background-color: #E9F3F1;  /* A slightly darker shade based on the green */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+    padding: 20px;
+    transition: transform 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.job-offer-card:hover {
+    transform: translateY(-10px);
+}
+
+.job-offer-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #30657F;  /* Based on the blue from the toucan's body */
+}
+
+.job-offer-card p {
+    margin-bottom: 10px;
+    color: #30657F;  /* Same blue shade */
+}
+
+.job-offer-card button {
+    padding: 10px 15px;
+    background-color: #30657F;  /* The blue again, for button background */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.job-offer-card button:hover {
+    background-color: #F39553;  /* The orange from the toucan's beak for hover effect */
+    color: white;
+}
+
+.show-more-content {
+    border-top: 1px solid #B1C9D2;  /* A muted blue shade for separation */
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.job-details-container {
+    display: flex;
+    justify-content: center; /* This centers the items horizontally. */
+    align-items: center;     /* This centers the items vertically. */
+    width: 100%;             /* Ensures the container takes the full width of the card. */
+    gap: 20px;               /* Provides space between the items. Adjust as needed. */
+    
+}
